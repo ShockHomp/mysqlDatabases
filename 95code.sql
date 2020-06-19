@@ -14,7 +14,7 @@ CREATE TABLE `95c_address` (
   `company_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '公司ID',
   `contact_name` varchar(20) NOT NULL DEFAULT '' COMMENT '联系人',
   `contact_mobile` char(11) NOT NULL DEFAULT '' COMMENT '联系人手机',
-  `zip_code` char(6) NOT NULL DEFAULT '' COMMENT '邮编',
+  `zip_code` char(6) NOT NULL DEFAULT '' COMMENT '邮编 ',
   `address` varchar(255) NOT NULL DEFAULT '' COMMENT '详细地址',
   `is_default` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '默认地址',
   `created_at` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
